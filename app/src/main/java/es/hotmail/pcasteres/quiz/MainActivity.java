@@ -38,11 +38,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onFalseButtonClicked(View view){
-        Log.e( tag: "MainActivity", msg: "onFalseButtonClicked()");
+        Log.e(  "MainActivity", "onFalseButtonClicked()");
         answerText.setText(R.string.falseButtomLabel);
     }
     public void onTrueButtonClicked(View view){
-        Log.e( tag: "MainActivity", msg: "onTrueButtonClicked()");
+        Log.e(  "MainActivity", "onTrueButtonClicked()");
         answerText.setText(R.string.trueButtomLabel);
 
     }
