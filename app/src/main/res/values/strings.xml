@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Quiz</string>
+    <string name="trueButtomLabel">True</string>
+    <string name="falseButtomLabel">False</string>
+    <string name="cheatButtomLabel">Cheat</string>
+    <string name="nextButtomLabel">Next</string>
 </resources>
