@@ -11,12 +11,12 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    private TextView answerText, questionText;
-    private Button trueButton, falseButton, cheatButton, nextButton;
+        private TextView answerText, questionText;
+        private Button trueButton, falseButton, cheatButton, nextButton;
 
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
         //fijar layout activity
@@ -38,12 +38,17 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void onFalseButtonClicked(View view){
-        Log.e(  "MainActivity", "onFalseButtonClicked()");
+        Log.e( "MainActivity", "onFalseButtonClicked()");
         answerText.setText(R.string.falseButtomLabel);
     }
     public void onTrueButtonClicked(View view){
-        Log.e(  "MainActivity", "onTrueButtonClicked()");
+        Log.e("MainActivity", "onTrueButtonClicked()");
         answerText.setText(R.string.trueButtomLabel);
+
+    }
+
+    public void firstquestion(View view){
+
 
     }
 
