@@ -37,7 +37,7 @@
             android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:padding="25dp"
-            android:text="@string/trueButtomLabel" />
+            android:text="@string/trueButtonLabel" />
 
         <Button
             android:id="@+id/falseButton"
@@ -46,7 +46,7 @@
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
             android:padding="25dp"
-            android:text="@string/falseButtomLabel" />
+            android:text="@string/falseButtonLabel" />
 
     </LinearLayout>
 
@@ -81,7 +81,7 @@
             android:layout_marginRight="8dp"
             android:layout_weight="1"
             android:padding="25dp"
-            android:text="@string/cheatButtomLabel" />
+            android:text="@string/cheatButtonLabel" />
 
         <Button
             android:id="@+id/nextButton"
@@ -90,7 +90,7 @@
             android:layout_marginLeft="8dp"
             android:layout_weight="1"
             android:padding="25dp"
-            android:text="@string/nextButtomLabel" />
+            android:text="@string/nextButtonLabel" />
 
     </LinearLayout>
 

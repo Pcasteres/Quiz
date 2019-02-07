@@ -39,17 +39,13 @@ public class MainActivity extends AppCompatActivity {
     }
     public void onFalseButtonClicked(View view){
         Log.e( "MainActivity", "onFalseButtonClicked()");
-        answerText.setText(R.string.falseButtomLabel);
+        answerText.setText(R.string.falseButtonLabel);
     }
     public void onTrueButtonClicked(View view){
         Log.e("MainActivity", "onTrueButtonClicked()");
-        answerText.setText(R.string.trueButtomLabel);
+        answerText.setText(R.string.trueButtonLabel);
 
     }
 
-    public void firstquestion(View view){
-
-
-    }
 
 }
