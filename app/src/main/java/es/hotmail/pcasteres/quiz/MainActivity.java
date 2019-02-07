@@ -12,7 +12,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
         private TextView answerText, questionText;
-        private Button trueButton, falseButton, cheatButton, nextButton
+        private Button trueButton, falseButton, cheatButton, nextButton;
 
 
         @Override
