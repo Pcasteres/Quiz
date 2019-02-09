@@ -45,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 //Inserto una pregunta
-    TextView questionText = (TextView) findViewById(R.id.questionText);
-        questionText.
+
+
 
 
 }

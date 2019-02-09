@@ -4,4 +4,5 @@
     <string name="falseButtonLabel">False</string>
     <string name="cheatButtonLabel">Cheat</string>
     <string name="nextButtonLabel">Next</string>
+    <string name="questionText">Is Nadal a tennis player?</string>
 </resources>
