@@ -44,7 +44,13 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-//Inserto una pregunta
+//Metodo del boton next
+public void onNextButtonClicked(View view) {
+    Log.e("MainActivity", "onNextButtonClicked");
+
+
+
+}
 
 
 
